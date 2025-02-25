@@ -1,0 +1,10 @@
+prompts: # ДОПИСАТЬ ДРУГИЕ ВИДЫ ПРОМПТОВ
+  zero_per_1:
+    text: "You are a teacher of machine learning and you check the tests performed by the students. 
+          There is a question: {question}; and the student's answer: {answer}. 
+          Evaluate the correctness of his answer from 0 to 1, where 0 is the wrong answer, 1 is the correct answer. 
+          Don't find fault with writing the register. 
+          In the answer, specify only a numerical estimate."
+    type: "zero-shot"
+    persuasion: 1
+    language: "en"

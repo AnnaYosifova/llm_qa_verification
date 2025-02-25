@@ -1,0 +1,357 @@
+id,language,source,subject,question,answer,score,test
+1,en,human,ml-basic,Name 3 libraries for Gradient Boosting,"Catboost, lightgbm, xgboost",1,h08
+2,en,human,ml-basic,Name 3 libraries for Gradient Boosting,"XGBoost, CatBoost, LightGBM",1,h08
+3,en,human,ml-basic,Name 3 libraries for Gradient Boosting,xgboost lightgbm catboost,1,h08
+4,en,human,ml-basic,Name 3 libraries for Gradient Boosting,"XGBoost, LightGBM, CatBoost",1,h08
+5,en,human,ml-basic,Name 3 libraries for Gradient Boosting,"XGBoost, Catboost, LightGBM",1,h08
+6,en,human,ml-basic,Name 3 libraries for Gradient Boosting,"xgboost, lightGBM, catboost",1,h08
+7,en,human,ml-basic,Name 3 libraries for Gradient Boosting,"XGboost, LightGBM, catboost",1,h08
+8,en,human,ml-basic,Name 3 libraries for Gradient Boosting,"GDBoost, CatBoost, LightGBM",1,h08
+9,en,human,ml-basic,Name 4 methods of hyperparameter search,"Manual trial, grid search, bayesian optimization, evolutionary method",1,h08
+10,en,human,ml-basic,Name 4 methods of hyperparameter search,"Manual search, grid search, bayesian optimization, evolutionary methods, random search",1,h08
+11,en,human,ml-basic,Name 4 methods of hyperparameter search,random search grid search baysean search,1,h08
+12,en,human,ml-basic,Name 4 methods of hyperparameter search,"manual, Grid Search, Bayesian Optimization, Evolutional",1,h08
+13,en,human,ml-basic,Name 4 methods of hyperparameter search,"Grid search, Random search, Bayesian optimization,  Evolutionary methonds",1,h08
+14,en,human,ml-basic,Name 4 methods of hyperparameter search,"grid search, random search, bayesian search, genetic",1,h08
+15,en,human,ml-basic,Name 4 methods of hyperparameter search,"manual trial, grid search, bayesian optimization, evolutionary methods",1,h08
+16,en,human,ml-basic,Name 4 methods of hyperparameter search,"manual, grid search, bayesian, evolutionary",1,h08
+17,en,human,ml-basic,Write formula for cosine distance,1- (A dot B / norm(A) norm(B)),1,h08
+18,en,human,ml-basic,Write formula for cosine distance,"1 -  ( <a, b> / (norm(a) * norm(b) ) )",1,h08
+19,en,human,ml-basic,Write formula for cosine distance,(A  * B )/(||A||*||b||),0,h08
+20,en,human,ml-basic,Write formula for cosine distance,1−  [(∥a∥∥b∥)/( a⋅b) ],0,h08
+21,en,human,ml-basic,Write formula for cosine distance,1 - AB / ||A|| ||B||,1,h08
+22,en,human,ml-basic,Write formula for cosine distance,1 - ab/|a||b|,1,h08
+23,en,human,ml-basic,Write formula for cosine distance,1 - cosine similarity,"0,5",h08
+24,en,human,ml-basic,Write formula for cosine distance,1 - (A*B) / (||A||*||B||),1,h08
+25,en,human,ml-basic,Name differences between Loss and Metric.,"Loss is differentiable metric is not
+Loss is a method to optimize model. Metric is real performance of model",1,h08
+26,en,human,ml-basic,Name differences between Loss and Metric.,"Loss function is differentiable and used for learning the parameters of the models, and metrics is used for interpretability and used for model selection.",1,h08
+27,en,human,ml-basic,Name differences between Loss and Metric.,loss infuences the model during trainning while metric is used for measurement,"0,5",h08
+28,en,human,ml-basic,Name differences between Loss and Metric.,"Loss - Used during training to minimize error , Metric - Used to evaluate the performance of the mode","0,5",h08
+29,en,human,ml-basic,Name differences between Loss and Metric.,"Differentiability, Model's optimization",1,h08
+30,en,human,ml-basic,Name differences between Loss and Metric.,loss is differentiable metric is not,1,h08
+31,en,human,ml-basic,Name differences between Loss and Metric.,loss is differentiable while metrics are not,1,h08
+32,en,human,ml-basic,Name differences between Loss and Metric.,loss is differentiable and usually not interpretable,1,h08
+33,en,human,ml-basic,What is embedding?,Vector representation in latent space,1,h08
+34,en,human,ml-basic,What is embedding?,representation of objects in n-dimensional space,1,h08
+35,en,human,ml-basic,What is embedding?,using continuous vector spaces to encode data in to vectors,1,h08
+36,en,human,ml-basic,What is embedding?,map input data into a continuous vector space where semantically similar inputs are placed close together,1,h08
+37,en,human,ml-basic,What is embedding?,The representation of anything as multi-dimensional metrix,1,h08
+38,en,human,ml-basic,What is embedding?,converting data into lower dimentional space,0,h08
+39,en,human,ml-basic,What is embedding?,embedding is the representation of an object in vector space,1,h08
+40,en,human,ml-basic,What is embedding?,small vector that vector that represent the bigger vector in lower dimension,1,h08
+41,en,human,ml-basic,Logistic loss function,- sum plogq,"0,5",h08
+42,en,human,ml-basic,Logistic loss function,− ( (ylog * yhat ) + (1−y)log(1−yhat) ),1,h08
+43,en,human,ml-basic,Logistic loss function,logloss = −(y*log(  y_hat ​  )+(1−y)*log(1−  y_hat  )),1,h08
+44,en,human,ml-basic,Logistic loss function,−1/N ​ ∑ [y_i ​ log(p_i ​)+(1−y_i ​)log(1−p_i ​)],1,h08
+45,en,human,ml-basic,Logistic loss function,"L = ylog(y_hat) + (1 - y)log(1 - y_hat), y = true value, y_hat = predicted value","0,5",h08
+46,en,human,ml-basic,Logistic loss function,w - grad(f(x),0,h08
+47,en,human,ml-basic,Logistic loss function,binary cross-entropy,0,h08
+48,en,human,ml-basic,Logistic loss function,-1/N sum^i=1_N (y_i log p_i + (1-y_i)log(1-p_i)),?,h08
+49,en,human,ml-basic,How to use PCA in practice? Why should we make it this way?,.,0,h08
+50,en,human,ml-basic,How to use PCA in practice? Why should we make it this way?,Features should be standardized for PCA to ensure that all features contribute equally to the principal components by giving them the same scale.,1,h08
+51,en,human,ml-basic,How to use PCA in practice? Why should we make it this way?,"clean data ,  calculate cov matrix , calculate eigen decomposition , selllect principle components","0,5",h08
+52,en,human,ml-basic,How to use PCA in practice? Why should we make it this way?,"standardize the data, then apply PCA to reduce dimensionality.","0,5",h08
+53,en,human,ml-basic,How to use PCA in practice? Why should we make it this way?,Apply PCA to decompose the data into principal components and we can see which features have highly contribution.,"0,5",h08
+54,en,human,ml-basic,How to use PCA in practice? Why should we make it this way?,"standardizing the data compute the covariance matrix, and then projecting the data on principal components. its easier to visualize and analyze","0,5",h08
+55,en,human,ml-basic,How to use PCA in practice? Why should we make it this way?,"standardize the data, fit it then transform it. this is to enable variance retention by balancing important info reducing dimension","0,5",h08
+56,en,human,ml-basic,How to use PCA in practice? Why should we make it this way?,standardize the data,"0,5",h08
+57,en,human,ml-basic,"What are terms of bias-variance decomposition?
+Write names and formulas.","Error = bias + variance + noise
+
+E((y-g(x))^2) = (f(x)-E(g(x)))^2 + E(g(x)-E(g(x))^2 + sigma^2",1,h07
+58,en,human,ml-basic,"What are terms of bias-variance decomposition?
+Write names and formulas.",Total Error = Bias^2 + Variance + Irreducible Error; (f(X) - E(g(X)) )^2 + E ( g(X) - E(g(X)) )^2 + sigma^2,1,h07
+59,en,human,ml-basic,"What are terms of bias-variance decomposition?
+Write names and formulas.",Bias Variance and noise E[(y-F(x))^2] = bias^2 + variance^2 + sigma^2,1,h07
+60,en,human,ml-basic,"What are terms of bias-variance decomposition?
+Write names and formulas.",(f(x) - g(x)) ^ 2 [bias ^ 2] + E(g(x) - E(g(x))) ^ 2 [varience] + sigma ^ 2 [noise],1,h07
+61,en,human,ml-basic,"What are terms of bias-variance decomposition?
+Write names and formulas.",/,0,h07
+62,en,human,ml-basic,"What are terms of bias-variance decomposition?
+Write names and formulas.",(f(x)-Eg(x))^2 + E(g(x)-Eg(x))^2 + epsilon^2   (bias)+(variance)+(noise),1,h07
+63,en,human,ml-basic,"What are terms of bias-variance decomposition?
+Write names and formulas.","Bias(g(x)) = E(g(x)) - f(x), Var(g(x)) = E((g(x) - E(g(x)))^2)",1,h07
+64,en,human,ml-basic,"What are terms of bias-variance decomposition?
+Write names and formulas.",bias = E=[f(x)-E[g(x)]^2  Variance = E[(g(x)-E[g(x)]]^)^2]  noise,"0,5",h07
+65,en,human,ml-basic,Which part of Total error do we target in bagging?,g(x) in variance term,1,h07
+66,en,human,ml-basic,Which part of Total error do we target in bagging?,Variance,1,h07
+67,en,human,ml-basic,Which part of Total error do we target in bagging?,variance,1,h07
+68,en,human,ml-basic,Which part of Total error do we target in bagging?,varience,1,h07
+69,en,human,ml-basic,Which part of Total error do we target in bagging?,variance,1,h07
+70,en,human,ml-basic,Which part of Total error do we target in bagging?,Variance,1,h07
+71,en,human,ml-basic,Which part of Total error do we target in bagging?,part where variance is low and bias is also low,1,h07
+72,en,human,ml-basic,Which part of Total error do we target in bagging?,reducing the variance in the model by averaging predictions from multiple bootstrapped models,1,h07
+73,en,human,ml-basic,What is boosting model? (shortly),Models trained sequentially to minimize error from previos one,1,h07
+74,en,human,ml-basic,What is boosting model? (shortly),"Sequential learning of tree that involves training a series of models, with each model trained to address the errors made by the previous one.",1,h07
+75,en,human,ml-basic,What is boosting model? (shortly),combines the predictions of multiple weaker learners,1,h07
+76,en,human,ml-basic,What is boosting model? (shortly),The learning model that learn from the previous model,1,h07
+77,en,human,ml-basic,What is boosting model? (shortly),averaging over multiple models which hellps reduce variance and give better result,0,h07
+78,en,human,ml-basic,What is boosting model? (shortly),Gradient Boosting,0,h07
+79,en,human,ml-basic,What is boosting model? (shortly),using new model to do gradient descent on the old one in loop,0,h07
+80,en,human,ml-basic,What is boosting model? (shortly),sequentially trained model aim to improve mistake from previous,1,h07
+81,en,human,ml-basic,What is the target for next tree in boosting? (in general case),Error between target and prediction from current model,1,h07
+82,en,human,ml-basic,What is the target for next tree in boosting? (in general case),"In boosting, the target for the next tree is the residual errors in regression and the misclassified instances in classification",1,h07
+83,en,human,ml-basic,What is the target for next tree in boosting? (in general case),correcting error from previous tree,1,h07
+84,en,human,ml-basic,What is the target for next tree in boosting? (in general case),the errors from the previous tree,1,h07
+85,en,human,ml-basic,What is the target for next tree in boosting? (in general case),"residual error of previous tree, every next tree tries to improve previous",1,h07
+86,en,human,ml-basic,What is the target for next tree in boosting? (in general case),the residual error of the model,1,h07
+87,en,human,ml-basic,What is the target for next tree in boosting? (in general case),to correct the earlier mistake,1,h07
+88,en,human,ml-basic,What is the target for next tree in boosting? (in general case),residual errors from the previous model,1,h07
+89,en,human,ml-basic,Can we train boosting in parallel? Why? Can we infer it in parallel?,No because error is calculated sequentially from model in previos time step.But we can infer in parallel after finish training every model.,1,h07
+90,en,human,ml-basic,Can we train boosting in parallel? Why? Can we infer it in parallel?,"No. Boosting can't be trained in parallel because each step depends on the previous one, but its predictions can be done in parallel since all trees work independently during inference.",1,h07
+91,en,human,ml-basic,Can we train boosting in parallel? Why? Can we infer it in parallel?,we cannot becuse of the tree being  trained based on the residuals or errors,"0,5",h07
+92,en,human,ml-basic,Can we train boosting in parallel? Why? Can we infer it in parallel?,No because it learns from the previous model sequentially. Yes we can infer it in parallel,1,h07
+93,en,human,ml-basic,Can we train boosting in parallel? Why? Can we infer it in parallel?,"most of the algorithm need to be sequential, inference can be done in parallel since each tree can apply its prediction independently",1,h07
+94,en,human,ml-basic,Can we train boosting in parallel? Why? Can we infer it in parallel?,no we cant train it in parallel cause each model depends on the errors of the previous model but inference can be done in parallel,1,h07
+95,en,human,ml-basic,Can we train boosting in parallel? Why? Can we infer it in parallel?,no because we have to train it in order,"0,5",h07
+96,en,human,ml-basic,Can we train boosting in parallel? Why? Can we infer it in parallel?,"no, because it depended on previous","0,5",h07
+97,en,human,ml-basic,Formula for cosine distance,"Cosine(a,b) = a dot b / norm(a)*norm(b)",0,h07
+98,en,human,ml-basic,Formula for cosine distance,"cosine distance =1- ( <A, B> / ( Norm(A) * Norm(B) ) )",1,h07
+99,en,human,ml-basic,Formula for cosine distance,(A*B)/(|A|*|B|),0,h07
+100,en,human,ml-basic,Formula for cosine distance,1 - AB / ||A|| ||B||,1,h07
+101,en,human,ml-basic,Formula for cosine distance,1 - ab/|a||b|,1,h07
+102,en,human,ml-basic,Formula for cosine distance,1 - cosine similarity,"0,5",h07
+103,en,human,ml-basic,Formula for cosine distance,A*B / |A|*|B|,0,h07
+104,en,human,ml-basic,Formula for cosine distance,1− (∥a∥∥b∥)/(a⋅b)​,0,h07
+105,en,human,ml-basic,Solution for linear regression problem (for weights),W = (X_T X)^-1 X_T Y,1,h07
+106,en,human,ml-basic,Solution for linear regression problem (for weights),w = (X ^T  * X)^−1  *  X^T * y,1,h07
+107,en,human,ml-basic,Solution for linear regression problem (for weights),"use the least squares method, maximum likelihood estimation (MLE)",0,h07
+108,en,human,ml-basic,Solution for linear regression problem (for weights),(X^T X) ^ -1 X^T Y(?),1,h07
+109,en,human,ml-basic,Solution for linear regression problem (for weights),/,0,h07
+110,en,human,ml-basic,Solution for linear regression problem (for weights),w = (X^tX)^-1X^ty minimize sum of squared difference between  alues,1,h07
+111,en,human,ml-basic,Solution for linear regression problem (for weights),Y = B_1 X + B_0 + W,0,h07
+112,en,human,ml-basic,Solution for linear regression problem (for weights),-,0,h07
+113,en,human,ml-basic,How to choose a split in a tree?,Either bootforce over every feature and threshold or sample some threshold,1,h06
+114,en,human,ml-basic,How to choose a split in a tree?,feature and threshold that reduce impurity the most,1,h06
+115,en,human,ml-basic,How to choose a split in a tree?,Choosing a split in a decision tree involves finding the feature and threshold that best divides the data based on class labels.,1,h06
+116,en,human,ml-basic,How to choose a split in a tree?,"L/Q * H(L) + R/Q * H(R) we minimize this for j and t, where H is information criteria",1,h06
+117,en,human,ml-basic,How to choose a split in a tree?,spliting is done using a feature and threshold,1,h06
+118,en,human,ml-basic,How to choose a split in a tree?,Choosing according to entropy,"0,5",h06
+119,en,human,ml-basic,How to choose a split in a tree?,"Gini Impurity , entorpy for classification and for regression mse or variance reduction","0,5",h06
+120,en,human,ml-basic,How to choose a split in a tree?,evaluates every possible split at each node based on a feature and its value,"0,5",h06
+121,en,human,ml-basic,Name known information criterions,"Entropy, gini, misclassification",1,h06
+122,en,human,ml-basic,Name known information criterions,"Gini, Entropy",1,h06
+123,en,human,ml-basic,Name known information criterions,"Entropy, Gini,",1,h06
+124,en,human,ml-basic,Name known information criterions,"gini, entropy, missclasification",1,h06
+125,en,human,ml-basic,Name known information criterions,gini impurity and entropy,1,h06
+126,en,human,ml-basic,Name known information criterions,AIC(?),0,h06
+127,en,human,ml-basic,Name known information criterions,"HQIC , BIC","0,5",h06
+128,en,human,ml-basic,Name known information criterions,"in classification - gini, entropy | in regression - MSE",1,h06
+129,en,human,ml-basic,Name hyperparameters of a tree,"Min sample leaf. Min samole split , max depth, criterion",1,h06
+130,en,human,ml-basic,Name hyperparameters of a tree,"max_depth, min_per_split, min_per_leaf",1,h06
+131,en,human,ml-basic,Name hyperparameters of a tree,"max depth, min sample split, min samples leaf",1,h06
+132,en,human,ml-basic,Name hyperparameters of a tree,"max_depth, min_sample_split, min_sample_leaf, max_features, max_leaf_nodes,",1,h06
+133,en,human,ml-basic,Name hyperparameters of a tree,"max_depth,min_samples per split, min_samples per leaf",1,h06
+134,en,human,ml-basic,Name hyperparameters of a tree,"max_depth, min_samples_split, min_samples_leaf",1,h06
+135,en,human,ml-basic,Name hyperparameters of a tree,"max_depth=max_depth, min_samples_leaf=min_samples_leaf",1,h06
+136,en,human,ml-basic,Name hyperparameters of a tree,"feature, threshold",0,h06
+137,en,human,ml-basic,What is bootstrap?,Bagging + aggreating result,0,h06
+138,en,human,ml-basic,What is bootstrap?,re-sample data into some number of datasets by pick with replacement,1,h06
+139,en,human,ml-basic,What is bootstrap?,"Selecting n objects from a dataset with replacement, where n is equal to the size of the original dataset",1,h06
+140,en,human,ml-basic,What is bootstrap?,making more datasets from same data by picking elements from original data allowing duplicates,1,h06
+141,en,human,ml-basic,What is bootstrap?,its a method used to create multiple dataset using the original training data,"0,5",h06
+142,en,human,ml-basic,What is bootstrap?,"Statistical method for resampling the data, which can use for bagging process",1,h06
+143,en,human,ml-basic,What is bootstrap?,"resampling data, used for esamble models","0,5",h06
+144,en,human,ml-basic,What is bootstrap?,random sampling with replacement,1,h06
+145,en,human,ml-basic,What is the difference between Bagging over decision trees and Random Forest?,Random forest also sample feature,1,h06
+146,en,human,ml-basic,What is the difference between Bagging over decision trees and Random Forest?,random forest add bootstrap-like behaviour on the features but bagging does only on the data,0,h06
+147,en,human,ml-basic,What is the difference between Bagging over decision trees and Random Forest?,Bagging - sample with objects only; Random Forest - sample with both features and objects,1,h06
+148,en,human,ml-basic,What is the difference between Bagging over decision trees and Random Forest?,random forest is a one specific type of bagging,"0,5",h06
+149,en,human,ml-basic,What is the difference between Bagging over decision trees and Random Forest?,for bagging at each node all feature are considered to be best possible choild while random forest its a random subset of f,1,h06
+150,en,human,ml-basic,What is the difference between Bagging over decision trees and Random Forest?,The Bagging uses all the features while the Random Forest uses randomly selected features,1,h06
+151,en,human,ml-basic,What is the difference between Bagging over decision trees and Random Forest?,bagging uses multiple treess while random forest use bootstrap,0,h06
+152,en,human,ml-basic,What is the difference between Bagging over decision trees and Random Forest?,-,0,h06
+153,en,human,ml-basic,What should be an answer in a tree leaf for classification? Why?,"Sholud be a non probabilistic label, using majority of data point in that leaf",1,h06
+154,en,human,ml-basic,What should be an answer in a tree leaf for classification? Why?,the most frequent class because we want to maximize the label,1,h06
+155,en,human,ml-basic,What should be an answer in a tree leaf for classification? Why?,"the most frequent class label in a leaf node which is the predicted class label is chosen to maximize the accuracy of the model predictions (i.e., minimize classification errors).",1,h06
+156,en,human,ml-basic,What should be an answer in a tree leaf for classification? Why?,"class which is present the most in original data for that leaf, because that way we get lower succes rate",1,h06
+157,en,human,ml-basic,What should be an answer in a tree leaf for classification? Why?,.,0,h06
+158,en,human,ml-basic,What should be an answer in a tree leaf for classification? Why?,"Always select the majority class because in the end, it will have a higher probability",1,h06
+159,en,human,ml-basic,What should be an answer in a tree leaf for classification? Why?,class label is moest reprisentative of the data class,1,h06
+160,en,human,ml-basic,What should be an answer in a tree leaf for classification? Why?,majority class among the data points in that leaf because,1,h06
+161,en,human,ml-basic,Formula for MinMaxScaler,normalize data min to 0 and max to 1,0,h05
+162,en,human,ml-basic,Formula for MinMaxScaler,X' = (X - Xmin) / (Xmax - Xmin),1,h05
+163,en,human,ml-basic,Formula for MinMaxScaler,X - Xmin / Xmax - Xmin,1,h05
+164,en,human,ml-basic,Formula for MinMaxScaler,Xi - min(X) / max(X) - min(X),1,h05
+165,en,human,ml-basic,Formula for MinMaxScaler,"X_std = (X - min) / max-min, X_scaled = X_std * (max - min) + min",1,h05
+166,en,human,ml-basic,Formula for MinMaxScaler,x' = (x-xmin)/(xmax-xmin),1,h05
+167,en,human,ml-basic,Formula for MinMaxScaler,x-xmin/xmax-xmin multiply by x(max-min)+min,1,h05
+168,en,human,ml-basic,What is input and output of PCA?,input: matrix n*p output: matrix n*k (reduce feature dimension from p to k),"0,5",h05
+169,en,human,ml-basic,What is input and output of PCA?,input: dataset with n samples and p features; output: transformed data in k-dimensional space and k principal components of the covariance matrix,"0,5",h05
+170,en,human,ml-basic,What is input and output of PCA?,"input: matrix with dimension n x p which n = numbers of sample p = numbers of feature, output:  vector Vt which is Transformed data projected onto the principal components","0,5",h05
+171,en,human,ml-basic,What is input and output of PCA?,input matrix of data (normalized) output is matrix with dimentions reduced,"0,5",h05
+172,en,human,ml-basic,What is input and output of PCA?,Input is dataset with k features. Output is the dataset where features that are linear combination of input dataset features (k or less),0,h05
+173,en,human,ml-basic,What is input and output of PCA?,"input-matrix data m*n, output-matrix which is change m*k; k=reduce no. of dimension","0,5",h05
+174,en,human,ml-basic,What is input and output of PCA?,Input is the data and components to retain and the output is variance,0,h05
+175,en,human,ml-basic,Why do we want to have kNN indexes?,so we not have to calculate kNN every query,1,h05
+176,en,human,ml-basic,Why do we want to have kNN indexes?,for faster querying of new point in inference,1,h05
+177,en,human,ml-basic,Why do we want to have kNN indexes?,To have more efficient in searching what we needed.,1,h05
+178,en,human,ml-basic,Why do we want to have kNN indexes?,to cluster with better precision,"0,5",h05
+179,en,human,ml-basic,Why do we want to have kNN indexes?,To fasten search and processing time required for finding neighbors,1,h05
+180,en,human,ml-basic,Why do we want to have kNN indexes?,optimize search time,1,h05
+181,en,human,ml-basic,Why do we want to have kNN indexes?,inorder to find an efficient way to choose where an object belongs to,1,h05
+182,en,human,ml-basic,Name three types of indexes we discussed,"kNN indexes, faiss indexes, k-d tree",1,h05
+183,en,human,ml-basic,Name three types of indexes we discussed,"clustering, tree-based algorithms (ball tree and kd-algorithm), Navigable Small World",1,h05
+184,en,human,ml-basic,Name three types of indexes we discussed,"k-d tree, clustering, HNSW",1,h05
+185,en,human,ml-basic,Name three types of indexes we discussed,/,0,h05
+186,en,human,ml-basic,Name three types of indexes we discussed,"Flat, HNSW, Inverted file",1,h05
+187,en,human,ml-basic,Name three types of indexes we discussed,"HNSW, k-d tree, NSW",1,h05
+188,en,human,ml-basic,Name three types of indexes we discussed,"k-means, k-d tree, HNSW",1,h05
+189,en,human,ml-basic,Describe k-d tree algorithm,binary tree that each non leaf divide the space into two partition,"0,5",h05
+190,en,human,ml-basic,Describe k-d tree algorithm,"The k-d tree is constructed by recursively choosing splitting points from k-dimensional data. To walk the tree for searching, range queries, and nearest neighbor searches, the algorithm systematically compares target coordinates with the coordinates of the tree elements.",1,h05
+191,en,human,ml-basic,Describe k-d tree algorithm,"1. Choose the splitting dimension, 2. Choose Median as a splitting point, 3. Split data to be 2 sides of the tree, 4.Do it recursively until finish => so it will build K level tree with the step walk a tree",1,h05
+192,en,human,ml-basic,Describe k-d tree algorithm,its same as KNN but for k dimentional space,0,h05
+193,en,human,ml-basic,Describe k-d tree algorithm,"We construct a binary tree where each node creates a hyperplane in the space, and different dimension is considered in different tree level. We continue until max depth",1,h05
+194,en,human,ml-basic,Describe k-d tree algorithm,using concept of tree and partition data points in a k-dimensional space,"0,5",h05
+195,en,human,ml-basic,Describe k-d tree algorithm,"for k-d tree we choose an axis to split data and pick the median along that axis becoming the node, split into two halves the repeat the process for right and left until all the points are included",1,h05
+196,en,human,ml-basic,What are motivations for Pytorch library?,"to be able to run it on GPU, it make the process a lot faster",1,h04
+197,en,human,ml-basic,What are motivations for Pytorch library?,"To utilize GPU calculation, and automatic gradient calculation",1,h04
+198,en,human,ml-basic,What are motivations for Pytorch library?,"pre implemented models, faster/better execution that python since pytorch is implemented in C++",1,h04
+199,en,human,ml-basic,What are motivations for Pytorch library?,faster calculation with GPU and auto grad,1,h04
+200,en,human,ml-basic,What are motivations for Pytorch library?,GPU Acceleration,1,h04
+201,en,human,ml-basic,Why GPU is faster than CPU in neural networks training?,Because it structure allow matrix calculation,1,h04
+202,en,human,ml-basic,Why GPU is faster than CPU in neural networks training?,GPUs can handle multiple parallel computations which make them ideal for matrix and vector operations,1,h04
+203,en,human,ml-basic,Why GPU is faster than CPU in neural networks training?,cores optimized for parallel processing,1,h04
+204,en,human,ml-basic,Why GPU is faster than CPU in neural networks training?,Difference in structure (for example close to RAM),"0,5",h04
+205,en,human,ml-basic,Why GPU is faster than CPU in neural networks training?,computations in parallel,1,h04
+206,en,human,ml-basic,What is basic assumption in Logistic regression?,It most likely to give binary outcome,"0,5",h04
+207,en,human,ml-basic,What is basic assumption in Logistic regression?,Samples are generated from a Bernoulli random variable.,0,h04
+208,en,human,ml-basic,What is basic assumption in Logistic regression?,relation is linear,1,h04
+209,en,human,ml-basic,What is basic assumption in Logistic regression?,has two output,"0,5",h04
+210,en,human,ml-basic,What is basic assumption in Logistic regression?,out put in binary,"0,5",h04
+211,en,human,ml-basic,What is basic assumption in SVM?,Can be separated by a linear line and can be adjusted kernel for other cases.,1,h04
+212,en,human,ml-basic,What is basic assumption in SVM?,"SVM assumes the existence of support vectors, which are crucial for defining the optimal decision boundary.","0,5",h04
+213,en,human,ml-basic,What is basic assumption in SVM?,hyperplane can divide data,1,h04
+214,en,human,ml-basic,What is basic assumption in SVM?,Linear Separability,1,h04
+215,en,human,ml-basic,What is basic assumption in SVM?,separate the data while maximize the margin,1,h04
+216,en,human,ml-basic,Name kernels for SVM,"linear kernel, polynomial kernel, sigmoid kernel, etc.",1,h04
+217,en,human,ml-basic,Name kernels for SVM,"Linear, Polynomial, and Gaussian Radial Basis Function",1,h04
+218,en,human,ml-basic,Name kernels for SVM,"linear, polynomial, exponential",1,h04
+219,en,human,ml-basic,Name kernels for SVM,"Gaussian kernel, Polynomial kernel",1,h04
+220,en,human,ml-basic,Name kernels for SVM,"polynomial, sigmoid",1,h04
+221,en,human,ml-basic,Why do we need to normalize data before PCA?,To adjust the dominance of the features.,1,h04
+222,en,human,ml-basic,Why do we need to normalize data before PCA?,"Normalization ensures that all features are on the same scale. Without normalization, features with larger values can significantly affect the covariance matrix calculations.",1,h04
+223,en,human,ml-basic,Why do we need to normalize data before PCA?,so that features have equal contribution,1,h04
+224,en,human,ml-basic,Why do we need to normalize data before PCA?,data with more range will have more impact on the result,1,h04
+225,en,human,ml-basic,Why do we need to normalize data before PCA?,"to equal the weight of feature. Without normalization, features with larger scales will dominate the principal components",1,h04
+226,en,human,ml-basic,What does logistic regression predicts?,predicted probabilities that are being turned into binary outcomes by using thresholding,1,h03
+227,en,human,ml-basic,What does logistic regression predicts?,probabilities of class (binary so for two classes),1,h03
+228,en,human,ml-basic,What does logistic regression predicts?,Probability of being in a class.,1,h03
+229,en,human,ml-basic,What does logistic regression predicts?,Binary classification,0,h03
+230,en,human,ml-basic,What does logistic regression predicts?,probability of binary event,1,h03
+231,en,human,ml-basic,What does logistic regression predicts?,probability of a binary outcome,1,h03
+232,en,human,ml-basic,What does logistic regression predicts?,probabilities of a binary outcome,1,h03
+233,en,human,ml-basic,Sigmoid formula,sigmoid(x)=  1 / (1+ e^−x)  ​	  ,1,h03
+234,en,human,ml-basic,Sigmoid formula,1/1+e^(-x),1,h03
+235,en,human,ml-basic,Sigmoid formula,1/ (1+e^ (-x)),1,h03
+236,en,human,ml-basic,Sigmoid formula,the formula that converts value to be between 0 and 1,0,h03
+237,en,human,ml-basic,Sigmoid formula,1/(1-e^-x),1,h03
+238,en,human,ml-basic,Sigmoid formula,s(x)=1/(e^(-x) + 1),1,h03
+239,en,human,ml-basic,Sigmoid formula,σ(x)=  1/(1+e ^−x),1,h03
+240,en,human,ml-basic,Which aggregation strategies do you know? How many classifiers you need to train in each?,One vs Rest (OvR) - k; One vs One (OvO) - k (k-1) / 2,1,h03
+241,en,human,ml-basic,Which aggregation strategies do you know? How many classifiers you need to train in each?,one vs one and one vs rest.  for one vs one we need n*(n-1) / 2 classifies and for one vs rest we need n classifier,1,h03
+242,en,human,ml-basic,Which aggregation strategies do you know? How many classifiers you need to train in each?,one vs one n(n-1)/2 classifiers. one vs rest n classifiers. (n=class),1,h03
+243,en,human,ml-basic,Which aggregation strategies do you know? How many classifiers you need to train in each?,One vs Rest?,"0,5",h03
+244,en,human,ml-basic,Which aggregation strategies do you know? How many classifiers you need to train in each?,random forest atleast around 100,0,h03
+245,en,human,ml-basic,Which aggregation strategies do you know? How many classifiers you need to train in each?,One agenst one and One agenst rest,"0,5",h03
+246,en,human,ml-basic,Which aggregation strategies do you know? How many classifiers you need to train in each?,ovr depense on number of class?,0,h03
+247,en,human,ml-basic,What should model predict to calculate ROC AUC?,Both predicted probabilities and actual class labels,0,h03
+248,en,human,ml-basic,What should model predict to calculate ROC AUC?,confidences from 0 to 1 for each class,1,h03
+249,en,human,ml-basic,What should model predict to calculate ROC AUC?,"True (it belongs to this class), and False (it belongs to other class) just to get true and falses positive rate",0,h03
+250,en,human,ml-basic,What should model predict to calculate ROC AUC?,True positive rate and False positive rate,0,h03
+251,en,human,ml-basic,What should model predict to calculate ROC AUC?,confidence of each event,1,h03
+252,en,human,ml-basic,What should model predict to calculate ROC AUC?,probabilities or confidence scores,1,h03
+253,en,human,ml-basic,What should model predict to calculate ROC AUC?,probabilities or confidence scores for the positive class,"0,5",h03
+254,en,human,ml-basic,"Explain precision and recall metrics, their semantics.","Precision - metric to consider if you want to minimize false positives, Recall - metric to consider if you want to minimize false negatives",0,h03
+255,en,human,ml-basic,"Explain precision and recall metrics, their semantics.",precision = tp / tp + fp / recall = tp / tp + fn,"0,5",h03
+256,en,human,ml-basic,"Explain precision and recall metrics, their semantics.",Precision: The ratio of true positive predictions to the total predicted positives. It measures how correct the model is when predicting positive class. Recall: The ratio of true positive predictions to the total actual positives. It measures how capable the model is in identifying all positive samples.,1,h03
+257,en,human,ml-basic,"Explain precision and recall metrics, their semantics.","precision is the ratio of TP and TP + FP and recall is the ratio of TP and TP + FN,","0,5",h03
+258,en,human,ml-basic,"Explain precision and recall metrics, their semantics.",precision = TP/(TP+FN) or how much we catch the real positive recall = TP/(TP+FP) or how much positive we call out was real positive,0,h03
+259,en,human,ml-basic,"Explain precision and recall metrics, their semantics.",precision focuses on the correctness of positive prediction (low false positive) recall focuses on how well the model captures actual positives (low false negative),1,h03
+260,en,human,ml-basic,"Explain precision and recall metrics, their semantics.",precision - prediction positive observation over total [TP/TP+FP] | recall - correctly prediction over  all actual positive [TP/TP+FN],1,h03
+261,en,human,ml-basic,Describe method to maximize precision,"Find the object with highest confidence or probability for predicting the positive class, and the rest predict them the negative class. In this case you minimize false positives and maximize precision.",1,h03
+262,en,human,ml-basic,Describe method to maximize precision,we classify only point with highest probability as positive,1,h03
+263,en,human,ml-basic,Describe method to maximize precision,we can return only one (or few) positive sample and make sure that it is correct.,1,h03
+264,en,human,ml-basic,Describe method to maximize precision,Select the most confidence value and set it as positive and label others as negative. This will minimize the FP,1,h03
+265,en,human,ml-basic,Describe method to maximize precision,call everything as false except the most confident predicted true,1,h03
+266,en,human,ml-basic,Describe method to maximize precision,set different learning rates sample weights or boosting rounds  the model can get positive predictions right more often at the cost of recall,0,h03
+267,en,human,ml-basic,Describe method to maximize precision,Make FP = 0,0,h03
+268,en,human,ml-basic,Linear regression problem solution (in terms of parameters) with L2 regularization,adding penalty term,0,h02
+269,en,human,ml-basic,Linear regression problem solution (in terms of parameters) with L2 regularization,.,0,h02
+270,en,human,ml-basic,Linear regression problem solution (in terms of parameters) with L2 regularization,(y - x(omega)) + Lambda * (sum of (omega) ^ 2),0,h02
+271,en,human,ml-basic,Linear regression problem solution (in terms of parameters) with L2 regularization,w = (X^T * X + λI)^(−1)  * X^T* y,1,h02
+272,en,human,ml-basic,Linear regression problem solution (in terms of parameters) with L2 regularization,it can have problem with large dataset.,0,h02
+273,en,human,ml-basic,Linear regression problem solution (in terms of parameters) with L2 regularization,w = (X_t X + lambda(I))^(-1) X_t Y,1,h02
+274,en,human,ml-basic,Linear regression problem solution (in terms of parameters) with L2 regularization,Prevent overfitting,0,h02
+275,en,human,ml-basic,What are problems of this solution? Why don't we want to use it?,sums getting rounded creates problem where for many values result is far from true result,0,h02
+276,en,human,ml-basic,What are problems of this solution? Why don't we want to use it?,The precision error makes the calculation wrong badly,0,h02
+277,en,human,ml-basic,What are problems of this solution? Why don't we want to use it?,It can't be cut to 0,0,h02
+278,en,human,ml-basic,What are problems of this solution? Why don't we want to use it?,non-stable if there are collinear features,0,h02
+279,en,human,ml-basic,What are problems of this solution? Why don't we want to use it?,it cause computationally expensive for large datasets.,1,h02
+280,en,human,ml-basic,What are problems of this solution? Why don't we want to use it?,it is biased toward lambda. Not 'best linear unbiased estimator',0,h02
+281,en,human,ml-basic,What are problems of this solution? Why don't we want to use it?,Null,0,h02
+282,en,human,ml-basic,"Purposes of each of train, val, test sets","train for training, val for valudation during training (training feedback), test for testing after training is done (quality test)",1,h02
+283,en,human,ml-basic,"Purposes of each of train, val, test sets",Train is to change the parameter Val is to change hyperparameter Test is to test the goodness of model,1,h02
+284,en,human,ml-basic,"Purposes of each of train, val, test sets","train: to formulate the relationship between data by adjusting parameters, val: for adjusting hyperparameter, test: to get the quality of the model",1,h02
+285,en,human,ml-basic,"Purposes of each of train, val, test sets","train - train the model by finding the parameters; validation - choose the best model by finding the best hyperparameters, test - evaluate the final model's performance to an unseen dataset",1,h02
+286,en,human,ml-basic,"Purposes of each of train, val, test sets","train-to train model, val-to validation,  test-is to test","0,5",h02
+287,en,human,ml-basic,"Purposes of each of train, val, test sets","Train: improve model parameters, Val: measure model performance during training, Test: assess the final model’s performance and generalization to unseen data.",1,h02
+288,en,human,ml-basic,"Purposes of each of train, val, test sets","train - for training the model, val - validate the trained model, test - to test model that has been trained","0,5",h02
+289,en,human,ml-basic,Formulate Gauss-Markov theorem,errors have equal Var and BLUE is given by ordinary least square,1,h02
+290,en,human,ml-basic,Formulate Gauss-Markov theorem,w_hat = (X^T * X)^-1 * X^T * Y,0,h02
+291,en,human,ml-basic,Formulate Gauss-Markov theorem,(Xt X) ^ -1 Xy,0,h02
+292,en,human,ml-basic,Formulate Gauss-Markov theorem,Minimizing the mean squared error loss will give you the best linear unbiased estimation (blue),1,h02
+293,en,human,ml-basic,Formulate Gauss-Markov theorem,E(w*) = w true,0,h02
+294,en,human,ml-basic,Formulate Gauss-Markov theorem,the solution for linear regression generated from least square error is the best linear unbiased estimator,1,h02
+295,en,human,ml-basic,Formulate Gauss-Markov theorem,Null,0,h02
+296,en,human,ml-basic,What is different in parameters and hyperparameters?,hyperparameters are set before training (k in KNN) parameters are set during training (weights),1,h02
+297,en,human,ml-basic,What is different in parameters and hyperparameters?,para is impact on complexity of model hyperpara don't,"0,5",h02
+298,en,human,ml-basic,What is different in parameters and hyperparameters?,parameter is the part of the model but hyperparameter is not,"0,5",h02
+299,en,human,ml-basic,What is different in parameters and hyperparameters?,"Parameters are learned from the data during training, while hyperparameters are predefined settings that control the training process.",1,h02
+300,en,human,ml-basic,What is different in parameters and hyperparameters?,parameters is variables of a model during train,"0,5",h02
+301,en,human,ml-basic,What is different in parameters and hyperparameters?,"hyperparameters is model's characteristics predefined before training and directly impact model's complexity. Parameters are inside models, tuned to describe dataset.",1,h02
+302,en,human,ml-basic,What is different in parameters and hyperparameters?,Parameters are the variable set during the training process while hyperparameters are external variable set before model training,1,h02
+303,en,human,ml-basic,Explain how GroupKFold works. Give examples.,"each group gets divided into train, val, test to have equal representations of groups in out data",0,h02
+304,en,human,ml-basic,Explain how GroupKFold works. Give examples.,Split train and Val by group each fold has unique set of group that does not belong in other group. Example : test from the same person is in one group,1,h02
+305,en,human,ml-basic,Explain how GroupKFold works. Give examples.,-,0,h02
+306,en,human,ml-basic,Explain how GroupKFold works. Give examples.,GroupKFold splits data based on groups which makes sure that each group appears in only one fold for training of the cross-validation. Example is healthcare with multiple test results such as x-ray images before and after covid.,1,h02
+307,en,human,ml-basic,Explain how GroupKFold works. Give examples.,-,0,h02
+308,en,human,ml-basic,Explain how GroupKFold works. Give examples.,"When we have multiple records for different samples, for example dataset of patients where each patient under go multiple operations. We want to make sure that the same group is not represented in both testing and training sets to make sure models can generalize to new subject.","0,5",h02
+309,en,human,ml-basic,Explain how GroupKFold works. Give examples.,Null,0,h02
+310,en,human,ml-basic,what is the result of applying MLE?,parameter value that maximizes the likelihood of the observed data,1,h01
+311,en,human,ml-basic,what is the result of applying MLE?,Get the estimated result with the highest probability,"0,5",h01
+312,en,human,ml-basic,what is the result of applying MLE?,estimates of parameters,1,h01
+313,en,human,ml-basic,what is the result of applying MLE?,We can find parameters that maximize the probability of observing our dataset,"0,5",h01
+314,en,human,ml-basic,what is the result of applying MLE?,have parameters that make the observed data most probable under the assumed model.,"0,7",h01
+315,en,human,ml-basic,what is the result of applying MLE?,.,0,h01
+316,en,human,ml-basic,name three sources of datasets,"Kaggle, Hugging Face, Google Datasets",1,h01
+317,en,human,ml-basic,name three sources of datasets,"Kaggle, Google open data source, collecting it yourself.","0,5",h01
+318,en,human,ml-basic,name three sources of datasets,"Kaggle, Hugging face, google",1,h01
+319,en,human,ml-basic,name three sources of datasets,"dataset search google, kaggle, paper with code",1,h01
+320,en,human,ml-basic,name three sources of datasets,idk,0,h01
+321,en,human,ml-basic,name three sources of datasets,"Online(like kaggle), Make it yourself, The sample from libraries","0,3",h01
+322,en,human,ml-basic,which dimension of dataset shows number of objects?,the first dimension,1,h01
+323,en,human,ml-basic,which dimension of dataset shows number of objects?,column,0,h01
+324,en,human,ml-basic,which dimension of dataset shows number of objects?,number of rows,1,h01
+325,en,human,ml-basic,which dimension of dataset shows number of objects?,row,1,h01
+326,en,human,ml-basic,which dimension of dataset shows number of objects?,idk,0,h01
+327,en,human,ml-basic,which dimension of dataset shows number of objects?,row,1,h01
+328,en,human,ml-basic,Formulate Bayes theorem (aka formula),P(Y | X) =  P(X) * P(X | Y) / P(Y),0,h01
+329,en,human,ml-basic,Formulate Bayes theorem (aka formula),p(a|b) = p(b|a) x p(b) / p(a),0,h01
+330,en,human,ml-basic,Formulate Bayes theorem (aka formula),p(a|b) = p(a)p(b|a) / p(b). in words probablity of a given that b is true is same as probability of both a and b happening over probability of b,1,h01
+331,en,human,ml-basic,Formulate Bayes theorem (aka formula),P(y=c_k  | x) = P(x | y=c_k)P(y=c_k) / P(x),1,h01
+332,en,human,ml-basic,Formulate Bayes theorem (aka formula),P(A∣B)=  P(B∣A)⋅P(A) ​/ P(B),1,h01
+333,en,human,ml-basic,Formulate Bayes theorem (aka formula),P(A|B) = P(B|A) * P(A) / P(B),1,h01
+334,en,human,ml-basic,why naive Bayes algorithm is naive?,Because features are conditionally independent,1,h01
+335,en,human,ml-basic,why naive Bayes algorithm is naive?,We assume that the features are independent,1,h01
+336,en,human,ml-basic,why naive Bayes algorithm is naive?,naive assumption is that all features are independant,1,h01
+337,en,human,ml-basic,why naive Bayes algorithm is naive?,because of the naive assumption that features are independent,1,h01
+338,en,human,ml-basic,why naive Bayes algorithm is naive?,simplify the assumption that features are independent,1,h01
+339,en,human,ml-basic,why naive Bayes algorithm is naive?,it simplifies,0,h01
+340,en,human,ml-basic,Can we use naive Bayes for regression? Why?,"No. We can turn the regression problem into a classification problem but Naive Bayes out of the box cannot be used for regression. The reason is it makes the assumption of conditional independence of features given the class, which is absent from a regression problem.",1,h01
+341,en,human,ml-basic,Can we use naive Bayes for regression? Why?,No because regression might not follow the naive assumption and naive Bayes trend to work well with classification task.,1,h01
+342,en,human,ml-basic,Can we use naive Bayes for regression? Why?,if we convert probability into probability density then yes but generally no,0,h01
+343,en,human,ml-basic,Can we use naive Bayes for regression? Why?,We can. just need to fit distribution to target values too,0,h01
+344,en,human,ml-basic,Can we use naive Bayes for regression? Why?,idk,0,h01
+345,en,human,ml-basic,Can we use naive Bayes for regression? Why?,.,0,h01
