@@ -1,10 +1,131 @@
-prompts: # ДОПИСАТЬ ДРУГИЕ ВИДЫ ПРОМПТОВ
-  zero_per_1:
-    text: "You are a teacher of machine learning and you check the tests performed by the students. 
+prompts:
+  zero: # 0.0
+    text: "There is a question: {question}; and the answer: {answer}.
+          Evaluate the correctness of the answer from 0 to 1, where 0 is an incorrect answer and 1 is a correct answer.
+          Ignore case sensitivity. Provide only the numerical score in your response."
+    type: "zero-shot"
+    persuasion: 0
+    role: "None"
+    workplace: "None"
+    language: "en"
+  
+  zero_professor: # 0.1
+    text: "You are a machine learning professor 
+          and you are evaluating students' test answers. 
           There is a question: {question}; and the student's answer: {answer}. 
-          Evaluate the correctness of his answer from 0 to 1, where 0 is the wrong answer, 1 is the correct answer. 
-          Don't find fault with writing the register. 
-          In the answer, specify only a numerical estimate."
+          Evaluate the correctness of the answer from 0 to 1, where 0 is an incorrect answer and 1 is a correct answer. 
+          Ignore case sensitivity. Provide only the numerical score in your response."
     type: "zero-shot"
     persuasion: 1
+    role: "professor"
+    workplace: "None"
     language: "en"
+
+  zero_professor_mit: # 0.1.1
+    text: "You are a machine learning professor at the Massachusetts Institute of Technology (MIT) 
+          and you are evaluating students' test answers. 
+          There is a question: {question}; and the student's answer: {answer}. 
+          Evaluate the correctness of the answer from 0 to 1, where 0 is an incorrect answer and 1 is a correct answer. 
+          Ignore case sensitivity. Provide only the numerical score in your response."
+    type: "zero-shot"
+    persuasion: 1
+    role: "professor"
+    workplace: "mit"
+    language: "en"
+
+  zero_researcher: # 0.2
+    text: "You are a machine learning researcher 
+          and you are evaluating interns' test answers. 
+          There is a question: {question}; and the intern's answer: {answer}. 
+          Evaluate the correctness of the answer from 0 to 1, where 0 is an incorrect answer and 1 is a correct answer. 
+          Ignore case sensitivity. Provide only the numerical score in your response."
+    type: "zero-shot"
+    persuasion: 1
+    role: "researcher"
+    workplace: "None"
+    language: "en"
+
+  zero_researcher_openai: # 0.2.1
+    text: "You are a machine learning researcher at OpenAI 
+          and you are evaluating interns' test answers. 
+          There is a question: {question}; and the intern's answer: {answer}. 
+          Evaluate the correctness of the answer from 0 to 1, where 0 is an incorrect answer and 1 is a correct answer. 
+          Ignore case sensitivity. Provide only the numerical score in your response."
+    type: "zero-shot"
+    persuasion: 1
+    role: "researcher"
+    workplace: "openai"
+    language: "en"
+
+
+  # ДОПИСАТЬ ДРУГИЕ ВИДЫ ПРОМПТОВ 
+  # (с одним полож ответом)
+  few-pos:
+    text: "Here is a question and answer that need to be evaluated:
+          Question: {question}; Answer: {answer}.
+          Here is an example of a correct answer: {answer_pos}.
+          Evaluate the correctness of the answer from 0 to 1, where 0 is an incorrect answer and 1 is a correct answer.
+          Ignore case sensitivity. Provide only the numerical score in your response."
+    type: "few-shot"
+    persuasion: 0
+    role: "None"
+    workplace: "None"
+    language: "en"
+  
+  zero_professor:
+    text: "You are a machine learning professor 
+          and you are evaluating students' test answers. 
+          There is a question: {question}; and the student's answer: {answer}. 
+          Evaluate the correctness of the answer from 0 to 1, where 0 is an incorrect answer and 1 is a correct answer. 
+          Ignore case sensitivity. Provide only the numerical score in your response."
+    type: "zero-shot"
+    persuasion: 1
+    role: "professor"
+    workplace: "None"
+    language: "en"
+
+  zero_professor_mit:
+    text: "You are a machine learning professor at the Massachusetts Institute of Technology (MIT) 
+          and you are evaluating students' test answers. 
+          There is a question: {question}; and the student's answer: {answer}. 
+          Evaluate the correctness of the answer from 0 to 1, where 0 is an incorrect answer and 1 is a correct answer. 
+          Ignore case sensitivity. Provide only the numerical score in your response."
+    type: "zero-shot"
+    persuasion: 1
+    role: "professor"
+    workplace: "mit"
+    language: "en"
+
+  zero_researcher:
+    text: "You are a machine learning researcher 
+          and you are evaluating interns' test answers. 
+          There is a question: {question}; and the intern's answer: {answer}. 
+          Evaluate the correctness of the answer from 0 to 1, where 0 is an incorrect answer and 1 is a correct answer. 
+          Ignore case sensitivity. Provide only the numerical score in your response."
+    type: "zero-shot"
+    persuasion: 1
+    role: "researcher"
+    workplace: "None"
+    language: "en"
+
+  zero_researcher_openai:
+    text: "You are a machine learning researcher at OpenAI
+          and you are evaluating interns' test answers. 
+          There is a question: {question}; and the intern's answer: {answer}. 
+          Evaluate the correctness of the answer from 0 to 1, where 0 is an incorrect answer and 1 is a correct answer. 
+          Ignore case sensitivity. Provide only the numerical score in your response."
+    type: "zero-shot"
+    persuasion: 1
+    role: "researcher"
+    workplace: "openai"
+    language: "en"
+
+  # ДОПИСАТЬ ДРУГИЕ ВИДЫ ПРОМПТОВ 
+  # (с одним полож и одним отриц)
+
+  # ДОПИСАТЬ ДРУГИЕ ВИДЫ ПРОМПТОВ 
+  # (с одним полож и двумя отриц)
+
+  # ДОПИСАТЬ ДРУГИЕ ВИДЫ ПРОМПТОВ 
+  # (с двумя полож и одним отриц)
+  
